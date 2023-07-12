@@ -1,19 +1,20 @@
 .mainnav{
-    border: 3px solid black;
+    border: 3px solid white;
     background-color: transparent;
     color: white;
     
     }
+    .mainnav a {
+        font-size: 18px;
+        font-family: sans-serif;
+    }
     
     .head{
-        /* width: 100%;
-        height:10rem; */
-        /* border: 1rem solid white; */
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: rgb(75, 67, 67);
-        color: yellow;
+        background-color: transparent;
+        color: #fbfbfb;
       
     }
     /* .head:hover{
@@ -25,11 +26,11 @@
     
     .button{
         height: 2rem;
-        border-radius: 50%;
-        background-color: orange;
-        color: black;
+        border-radius: 5px;
+        background-color: #db6b00;
+        color: white;
+        border: none;
     }
-    
     
     .board{
         background-color: whitesmoke;
